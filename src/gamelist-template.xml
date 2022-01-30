@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<gameList>
+	<game>
+		<path>3countb.zip</path>
+		<hash>E59385A9</hash>
+		<region>11</region>
+		<genreid>262</genreid>
+		<genre>Fight</genre>
+		<publisher>SNK</publisher>
+		<developer>SNK</developer>
+		<releasedate>19921231T230000</releasedate>
+		<video>media/videos/3 Count Bout .</video>
+		<thumbnail>media/thumbnails/3 Count Bout .</thumbnail>
+		<image>media/images/3 Count Bout 7aef94a55a14c229ff8be776ba1d5a26.png</image>
+		<desc>3 Count Bout is a one-on-one fighting game. Choose from ten wrestlers who have their own power attacks. There are ten rounds in the game, and each one of them has you fighting other wrestlers that are much tougher than the previous ones. You defeat each one by biting, kicking, and performing other moves to the point where their damage meter is empty. But just because it is empty doesn't mean that you win. You have to pin him for the infamous-three count. Also features competitive play and tag match battles.</desc>
+		<rating>0.60000</rating>
+		<name>3countb</name>
+	</game>
+    <game>
+		<path>3countb.zip</path>
+		<hash>E59385A9</hash>
+		<region>11</region>
+		<genreid>262</genreid>
+		<genre>Fight</genre>
+		<publisher>SNK</publisher>
+		<developer>SNK</developer>
+		<releasedate>19921231T230000</releasedate>
+		<video>media/videos/3 Count Bout .</video>
+		<thumbnail>media/thumbnails/3 Count Bout .</thumbnail>
+		<image>media/images/3 Count Bout 7aef94a55a14c229ff8be776ba1d5a26.png</image>
+		<desc>3 Count Bout is a one-on-one fighting game. Choose from ten wrestlers who have their own power attacks. There are ten rounds in the game, and each one of them has you fighting other wrestlers that are much tougher than the previous ones. You defeat each one by biting, kicking, and performing other moves to the point where their damage meter is empty. But just because it is empty doesn't mean that you win. You have to pin him for the infamous-three count. Also features competitive play and tag match battles.</desc>
+		<rating>0.60000</rating>
+		<name>3countb</name>
+	</game>
+</gameList>

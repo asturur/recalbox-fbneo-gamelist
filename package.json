@@ -1,0 +1,20 @@
+{
+  "name": "recalbox-gamelist",
+  "version": "1.0.0",
+  "description": "Recalbox gamelist creator from mame data",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "recalbox",
+    "mame",
+    "gamelist",
+    "arcade"
+  ],
+  "author": "Andrea Bogazzi <andreabogazzi79@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "fast-xml-parser": "^4.0.1"
+  }
+}
