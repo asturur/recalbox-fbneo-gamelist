@@ -11,6 +11,8 @@ const sourcePng = process.env.PNG_IN || '/media/andrea/SSD 870QVO 2TB/[MAME] SNA
 // destination folder for output of the parent only set, gamelist.xml, images
 const destinationRoms = process.env.ROMS_OUT || '/media/andrea/SSD 870QVO 2TB/[roms] recalbox-fbneo/';
 
+const withCopies = false;
+
 console.log(`
     roms: ${sourceRoms},
     png: ${sourcePng},
@@ -57,10 +59,12 @@ const parentGames = roms.game
     const imageFile = `${sourcePng}${romName}.png`;
     const doesImageExist = fs.existsSync(imageFile);
     const destinationImage = `media/images/${romName}.png`;
-    if (doesImageExist) {
-        fs.copyFileSync(imageFile, `${destinationRoms}${destinationImage}`);
+    if (withCopies) {
+        if (doesImageExist) {
+            fs.copyFileSync(imageFile, `${destinationRoms}${destinationImage}`);
+        }
+        fs.copyFileSync(`${sourceRoms}${romName}.zip`, `${destinationRoms}${romName}.zip`);
     }
-    fs.copyFileSync(`${sourceRoms}${romName}.zip`, `${destinationRoms}${romName}.zip`);
     return {
         path: `${parent.__name}.zip`,
         publisher: parent.manufacturer,
@@ -68,7 +72,7 @@ const parentGames = roms.game
         releasedate: parent.year.toString(),
         desc: description || parent.description,
         ...(doesImageExist ? { image: destinationImage } : {}),
-        name: parent.__name,
+        name: parent.description,
     }
 })
 
